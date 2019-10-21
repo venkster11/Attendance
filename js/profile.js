@@ -41,7 +41,7 @@ function updateProfile(a) {
         case 'exists' : alert("This email id is already in use!"); break;
         case 'none' : a.html('Saved!'); setTimeout(function() { window.location = ""; },500); break;
         case 'not_found' : case 'failure' : 
-        alert("We are facing some troubles at out server side. Logging you out for security");
+        alert("We are facing some troubles at out server side. Logging you out for security!!");
         window.location = "logout.php";
       }
     }  
